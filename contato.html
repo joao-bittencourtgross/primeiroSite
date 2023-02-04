@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsivo ADMX</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="pagina-contato">
+    <header class="cabecalho">
+        <div class="container">
+            <a href="index.html" class="logo"><strong>ADMX</strong> Tecnologia</a>
+            <nav class="menu-principal menu-principal--fechado">
+                <button class="menu-principal__btn menu-principal__btn--fechar">Abrir/Fechar Menu</button>
+                <ul class="menu-principal__lista">
+                    <li>
+                        <a class="menu-principal__item" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="menu-principal__item" href="sobre.html">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a class="menu-principal__item" href="portfolio.html">Portfólio</a>
+                    </li>
+                    <li>
+                        <a class="menu-principal__item menu-principal__item--atual" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <header class="pagina-cabecalho">
+         <h1 class="pagina-cabecalho__titulo">Contato</h1>
+            <section class="container pagina-conteudo">
+                 <p class="text-center">Envie uma mensagem para nós</p>
+                <form action="#" class="formulario">
+                    <div class="formulario__grupo formulario__grupo--esq">
+                        <label class="formulario__label" for="nome">Nome</label><br>
+                        <input class="formulario__campo" id="nome" type="text" name="nome">
+                    </div>
+                    <div class="formulario__grupo formulario__grupo--dir">
+                        <label class="formulario__label" for="email">Email</label><br>
+                        <input class="formulario__campo" id="email" type="email" name="email">
+                    </div>
+                    <div class="formulario__grupo">
+                        <label class="formulario__label" for="mensagem">Mensagem</label><br>
+                        <textarea class="formulario__campo" name="mensagem" id="mensagem" cols="30" rows="10"></textarea> 
+                    </div>
+                    <input type="submit" class="formulario__botao" name="Enviar">
+                </form>
+                <p class="text-center">
+                   Para mais informações entre em contato <strong>(45) 3038-4073</strong>
+                </p>
+            </section>
+            <div class="mapa">
+                <iframe class="mapa-iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14470.0520619074!2d-53.445698!3d-24.9486546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfabc824404e9be48!2sADMX%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1673288147362!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </header>
+
+    </main>
+    <footer class="rodape">
+        <div class="rodape__linha-1">
+            <div class="container">
+                <div class="rodape__coluna">
+                    <a href="index.html" class="logo">ADMX Tecnologia</a>
+                    <p>Aqui você encontra nossas redes sociais, nos siga para ficar por dentro de nossos próximos projetos.</p>
+                </div>
+                <div class="rodape__coluna">
+                    <h2 class="rodape__titulo">Redes Sociais</h2>
+                    <ul class="rodape__lista-links">
+                        <li><a class="rodape__lista-links__items" href="https://instagram.com/admxtecnologia/" target="_blank">Instagram</a></li>
+                        <li><a class="rodape__lista-links__items" href="https://facebook.com" target="_blank">Facebook</a></li>
+                    </ul>
+                </div> 
+                <div class="rodape__coluna">
+                    <h2 class="rodape__titulo">Links</h2>
+                    <ul class="rodape__lista-links">
+                        <li>
+                           <a class="rodape__lista-links__items" href="index.html">Home</a>
+                        </li>
+                        <li>
+                           <a class="rodape__lista-links__items" href="sobre.html">Sobre nós</a>
+                        </li>
+                        <li>
+                           <a class="rodape__lista-links__items" href="portfolio.html">Portfólio</a>
+                        </li>
+                        <li>
+                           <a class="rodape__lista-links__items" href="contato.html">Contato</a>
+                        </li>
+                    
+                    
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    
+        <div class="rodape__linha-2">
+            <p> © 2023 Todos os direitos reservados</p>
+        </div>
+        
+    </footer>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

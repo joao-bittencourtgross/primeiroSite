@@ -1,0 +1,10 @@
+.pagina-conteudo{
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    overflow: auto;
+    @media(min-width: $breakpoint-md){
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
